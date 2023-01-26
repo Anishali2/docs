@@ -1,0 +1,35 @@
+    <div class="bg-gray-200 p-4">
+      <h2 class="text-lg font-medium mb-2">Todo List</h2>
+      <form class="bg-white rounded-lg p-6">
+        <input 
+          class="bg-gray-200 rounded-lg p-2 w-full" 
+          type="text" 
+          placeholder="Add a new task" 
+        />
+        <button 
+          class="bg-blue-500 text-white rounded-lg p-2 mt-2 hover:bg-blue-600" 
+          type="submit"
+        >
+          Add Task
+        </button>
+        <div class="mt-4">
+            <div 
+              class="flex items-center mb-2 "
+            >
+              <input 
+                class="mr-2" 
+                type="checkbox" 
+              />
+              <p class="transition duration-500 ease-in-out transform 'scale-50'">
+                My Task
+              </p>
+              <button 
+                class="ml-auto text-red-500 transition duration-500 ease-in-out transform scale-100"
+              >
+                X
+              </button>
+            </div>
+        </div>
+      </form>
+    </div>
+
